@@ -1,0 +1,30 @@
+{
+  "name": "snygt",
+  "version": "0.0.1",
+  "author": "floz <florian.zumbrunn@gmail.com>",
+  "description": "SNYGT website",
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-watch": "*",
+    "gulp-changed": "*",
+    "gulp-cached": "*",
+    "gulp-browserify": "*",
+    "gulp-jade": "*",
+    "gulp-stylus": "*",
+    "gulp-util": "*",
+    "gulp-coffee": "*",
+    "gulp-rename": "*",
+    "gulp-debug": "*",
+    "gulp-newer": "*",
+    "coffeeify": "*",
+    "nib": "*",
+
+    "browser-sync": "*"
+  }
+}
