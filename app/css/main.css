@@ -1,0 +1,169 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+body {
+  background-color: #010a1d;
+  font-family: "courier new";
+  color: #010a1d;
+}
+table {
+  font: normal 12px/12px "courier new";
+  letter-spacing: -1.04px;
+}
+#universe {
+  position: relative;
+  color: #fff;
+}
+#origin {
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  left: 50%;
+  top: -54px;
+  margin-left: -54px;
+}
+#origin .planet-menu {
+  left: 120px;
+  top: 10px;
+}
+.planet-menu {
+  position: absolute;
+  width: 400px;
+  font-size: 12px;
+}
+.planet-menu a {
+  padding: 2px;
+  margin-bottom: 5px;
+  color: #d8d8d8;
+  display: none;
+  text-decoration: underline;
+  text-decoration-color: #d8d8d8;
+}
+.planet-menu span {
+  display: inline-block;
+  margin-right: 5px;
+}
+#menu {
+  position: fixed;
+  background-color: #f8f8f8;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+}
+.menu__top-bar {
+  position: relative;
+  top: -7px;
+  width: 99%;
+  overflow: hidden;
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+.menu__entries {
+  overflow: hidden;
+}
+.menu__entry {
+  float: left;
+}
+.menu__resources {
+  float: right;
+  width: 200px;
+}
+.menu__resource span {
+  display: inline-block;
+}
+.menu__resource .title {
+  width: 100px;
+}
+.menu__resource .value {
+  width: 50px;
+  text-align: right;
+}
