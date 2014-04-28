@@ -352,7 +352,7 @@ module.exports = {
 };
 
 
-},{"./amelio":1,"./menu":9,"./resources":34,"./universe":50}],7:[function(require,module,exports){
+},{"./amelio":1,"./menu":9,"./resources":34,"./universe":51}],7:[function(require,module,exports){
 var Lifebar, domify;
 
 domify = require("./components/domify");
@@ -401,7 +401,7 @@ Lifebar = (function() {
 module.exports = Lifebar;
 
 
-},{"./components/domify":3,"./templates/planet_lifebar.html":35}],8:[function(require,module,exports){
+},{"./components/domify":3,"./templates/planet_lifebar.html":36}],8:[function(require,module,exports){
 var game, onResize;
 
 game = require("./game");
@@ -1533,7 +1533,7 @@ Planet = (function() {
 module.exports = Planet;
 
 
-},{"../components/domify":3,"../lifebar":7,"../textures":43}],27:[function(require,module,exports){
+},{"../components/domify":3,"../lifebar":7,"../textures":44}],27:[function(require,module,exports){
 var Planet, PlanetAmelio, PlanetMenuAmelio, PlanetMenuAttack,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1570,7 +1570,7 @@ PlanetAmelio = (function(_super) {
 module.exports = PlanetAmelio;
 
 
-},{"../templates/planet_menu_amelio.html":36,"../templates/planet_menu_attack.html":38,"./menu/planet_menu_amelio":18,"./menu/planet_menu_attack":20,"./planet":26}],28:[function(require,module,exports){
+},{"../templates/planet_menu_amelio.html":37,"../templates/planet_menu_attack.html":39,"./menu/planet_menu_amelio":18,"./menu/planet_menu_attack":20,"./planet":26}],28:[function(require,module,exports){
 var Planet, PlanetArmy, PlanetMenuArmy, PlanetMenuInvade,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1604,7 +1604,7 @@ PlanetArmy = (function(_super) {
 module.exports = PlanetArmy;
 
 
-},{"../templates/planet_menu_army.html":37,"../templates/planet_menu_invade.html":41,"./menu/planet_menu_army":19,"./menu/planet_menu_invade":24,"./planet":26}],29:[function(require,module,exports){
+},{"../templates/planet_menu_army.html":38,"../templates/planet_menu_invade.html":42,"./menu/planet_menu_army":19,"./menu/planet_menu_invade":24,"./planet":26}],29:[function(require,module,exports){
 var Planet, PlanetCollect, PlanetMenuCollect, PlanetMenuInvade,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1638,7 +1638,7 @@ PlanetCollect = (function(_super) {
 module.exports = PlanetCollect;
 
 
-},{"../templates/planet_menu_collect.html":39,"../templates/planet_menu_invade.html":41,"./menu/planet_menu_collect":21,"./menu/planet_menu_invade":24,"./planet":26}],30:[function(require,module,exports){
+},{"../templates/planet_menu_collect.html":40,"../templates/planet_menu_invade.html":42,"./menu/planet_menu_collect":21,"./menu/planet_menu_invade":24,"./planet":26}],30:[function(require,module,exports){
 var Planet, PlanetEnd, PlanetMenuAttack, PlanetMenuEnd,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1673,7 +1673,7 @@ PlanetEnd = (function(_super) {
 module.exports = PlanetEnd;
 
 
-},{"../templates/planet_menu_attack.html":38,"../templates/planet_menu_end.html":40,"./menu/planet_menu_attack":20,"./menu/planet_menu_end":22,"./planet":26}],31:[function(require,module,exports){
+},{"../templates/planet_menu_attack.html":39,"../templates/planet_menu_end.html":41,"./menu/planet_menu_attack":20,"./menu/planet_menu_end":22,"./planet":26}],31:[function(require,module,exports){
 var PlanetAmelio, PlanetArmy, PlanetCollect, PlanetEnd, PlanetOrigin, PlanetWar;
 
 PlanetOrigin = require("./planet_origin");
@@ -1743,7 +1743,7 @@ PlanetOrigin = (function(_super) {
 module.exports = PlanetOrigin;
 
 
-},{"../templates/planet_menu_origin.html":42,"./menu/planet_menu_origin":25,"./planet":26}],33:[function(require,module,exports){
+},{"../templates/planet_menu_origin.html":43,"./menu/planet_menu_origin":25,"./planet":26}],33:[function(require,module,exports){
 var Planet, PlanetMenuAttack, PlanetMenuCollect, PlanetWar,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1778,7 +1778,7 @@ PlanetWar = (function(_super) {
 module.exports = PlanetWar;
 
 
-},{"../templates/planet_menu_attack.html":38,"../templates/planet_menu_collect.html":39,"./menu/planet_menu_attack":20,"./menu/planet_menu_collect":21,"./planet":26}],34:[function(require,module,exports){
+},{"../templates/planet_menu_attack.html":39,"../templates/planet_menu_collect.html":40,"./menu/planet_menu_attack":20,"./menu/planet_menu_collect":21,"./planet":26}],34:[function(require,module,exports){
 var Emitter, Resource, bigShips, gaz, minerals, ships,
   __hasProp = {}.hasOwnProperty,
   __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };
@@ -1835,30 +1835,59 @@ bigShips = exports.bigShips = new Resource("BS", 0);
 
 
 },{"./components/emitter":4}],35:[function(require,module,exports){
-module.exports = "<div class=\"planet-lifebar\"><span class=\"bar\"></span> <span class=\"value\"></span></div>\n";
+var Stars;
+
+Stars = (function() {
+  function Stars() {}
+
+  Stars.prototype.create = function() {
+    var cnt, frag, i, star, _i;
+    cnt = document.getElementById("stars");
+    frag = document.createDocumentFragment();
+    for (i = _i = 0; _i < 250; i = ++_i) {
+      star = document.createElement("div");
+      star.innerHTML = "+";
+      star.classList.add("star");
+      star.classList.add("star--" + (Math.random() * 2 >> 0));
+      star.style.left = Math.random() * 1700 + "px";
+      star.style.top = Math.random() * 1400 + "px";
+      frag.appendChild(star);
+    }
+    return cnt.appendChild(frag);
+  };
+
+  return Stars;
+
+})();
+
+module.exports = new Stars();
+
 
 },{}],36:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry amelio\" href=\"#\"><span class=\"title\">Research a faster drilling technology</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-lifebar\"><span class=\"bar\"></span> <span class=\"value\"></span></div>\n";
 
 },{}],37:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry create-ship-10\" href=\"#\"><span class=\"title\">Create 10 spaceships</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-big-ship-1\" href=\"#\"><span class=\"title\">Create a big spaceship</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-big-ship-5\" href=\"#\"><span class=\"title\">Create 5 big spaceships</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry amelio\" href=\"#\"><span class=\"title\">Research a faster drilling technology</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],38:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry attack\" href=\"#\"><span class=\"title\">ATTACK THE ENEMY BASE</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry create-ship-10\" href=\"#\"><span class=\"title\">Create 10 spaceships</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-big-ship-1\" href=\"#\"><span class=\"title\">Create a big spaceship</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-big-ship-5\" href=\"#\"><span class=\"title\">Create 5 big spaceships</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],39:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry drilling-minerals\" href=\"#\"><span class=\"title\">Build drilling minerals machine</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-minerals\" href=\"#\"><span class=\"title\">Upgrade drilling minerals</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"on planet-menu__entry drilling-gaz\" href=\"#\"><span class=\"title\">Build drilling gaz machine</span><span class=\"price\">100</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-gaz\" href=\"#\"><span class=\"title\">Upgrade drilling gaz</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry attack\" href=\"#\"><span class=\"title\">ATTACK THE ENEMY BASE</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],40:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry end\" href=\"#\"><span class=\"title\">Start drilling until there is no more resources anywhere...</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry drilling-minerals\" href=\"#\"><span class=\"title\">Build drilling minerals machine</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-minerals\" href=\"#\"><span class=\"title\">Upgrade drilling minerals</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"on planet-menu__entry drilling-gaz\" href=\"#\"><span class=\"title\">Build drilling gaz machine</span><span class=\"price\">100</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-gaz\" href=\"#\"><span class=\"title\">Upgrade drilling gaz</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],41:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry invade\" href=\"#\"><span class=\"title\">Invade planet</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"planet-menu__entry end\" href=\"#\"><span class=\"title\">Start drilling until there is no more resources anywhere...</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],42:[function(require,module,exports){
-module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry drilling-minerals\" href=\"#\"><span class=\"title\">Build drilling minerals machine</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-minerals\" href=\"#\"><span class=\"title\">Upgrade drilling minerals</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"on planet-menu__entry drilling-gaz\" href=\"#\"><span class=\"title\">Build drilling gaz machine</span><span class=\"price\">100</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-gaz\" href=\"#\"><span class=\"title\">Upgrade drilling gaz</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-ship-1\" href=\"#\"><span class=\"title\">Create a spaceship</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry invade\" href=\"#\"><span class=\"title\">Invade planet</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
 
 },{}],43:[function(require,module,exports){
+module.exports = "<div class=\"planet-menu\">\n  <ul>\n    <li>\n      <a class=\"on planet-menu__entry drilling-minerals\" href=\"#\"><span class=\"title\">Build drilling minerals machine</span><span class=\"price\">(cost: 100M)</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-minerals\" href=\"#\"><span class=\"title\">Upgrade drilling minerals</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"on planet-menu__entry drilling-gaz\" href=\"#\"><span class=\"title\">Build drilling gaz machine</span><span class=\"price\">100</span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry upgrade-gaz\" href=\"#\"><span class=\"title\">Upgrade drilling gaz</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n    <li>\n      <a class=\"planet-menu__entry create-ship-1\" href=\"#\"><span class=\"title\">Create a spaceship</span><span class=\"price\"></span><span class=\"progress\"></span></a>\n    </li>\n  </ul>\n</div>\n";
+
+},{}],44:[function(require,module,exports){
 module.exports = {
   planets: {
     origin: require("./textures/planets/origin.html"),
@@ -1871,26 +1900,26 @@ module.exports = {
 };
 
 
-},{"./textures/planets/amelio_0.html":44,"./textures/planets/army_0.html":45,"./textures/planets/collect_0.html":46,"./textures/planets/end.html":47,"./textures/planets/origin.html":48,"./textures/planets/war_0.html":49}],44:[function(require,module,exports){
+},{"./textures/planets/amelio_0.html":45,"./textures/planets/army_0.html":46,"./textures/planets/collect_0.html":47,"./textures/planets/end.html":48,"./textures/planets/origin.html":49,"./textures/planets/war_0.html":50}],45:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 90px; height: 90px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>               <br>    fLOZOo;    <br>   ,FZOOOOOO?  <br>      .;?/,    <br> ?OOF?,. .;Fz. <br> /ZOOOOLozzLZ: <br>  ,L#ZollzLz.  <br>     ,??/,     <br></td></tr></tbody></table>\n";
 
-},{}],45:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 180px; height: 180px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>                              <br>                              <br>        ,?llllllllll/.        <br>      /lllllllllllooooo?,     <br>    :lllllllllllloooooooo?,   <br>   :lllllloooolllllllllloof,  <br>  .lllf?flooooolllllllllloo?. <br>  :f?;;:;?looooollllllllllo/. <br>  ,?;:::::/?fllooolllllllll: .<br>  .??;;:::;??fllooooooooool.  <br>   :f??/;;;/fllllooooooooo/   <br>    ,f?//?flllllooooooool,    <br>      ;lllllloooooollll;      <br>        ./lllllllllf;.        <br>                              <br></td></tr></tbody></table>\n";
 
-},{}],46:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 210px; height: 210px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>                                   <br>                                   <br>           ,;ttttttttt;,           <br>        :ttttttttttttttttt:        <br>      :ttttttttttttttttttttt:      <br>     1ttttt1ttttttttttttttttt1     <br>    1ttttt1ttttttttttttttttttt1    <br>   ;ttt1iii1ttttttttttttttttttt;   <br>   tti;;:;i11ttttttttttttttttttt   <br>   1;:::,,::;i11tttttttttttttttt  .<br>   ii;::,,,,,:;i1tttttttttttttt1   <br>   ,11i;;::::::::;i1ttttttttttt:   <br>    :11i;;:::::::;;itttttttttti    <br>     ,t1i;::::::;iitttttttttt,     <br>       ;ttt11i1tttttttttttt;       <br>         .ittttttttttttti.         <br>              .::;::.              <br>                                   <br></td></tr></tbody></table>\n";
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 1200px; height: 720px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                    ,//;,                                                                                                                                                               <br>                                   :zzFzzf.                                                                                                                                                             <br>                                   ,fzzzl/                                                                                                                                                              <br>                                    .::,                                                                                                                                                                <br>                                                                                                                                                                                                        <br>                                                                                                            .,                                                                                          <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                                                                                                                                                                        <br>                                                 ,                                                                                                                                                      <br>                                                                                                                                                                         .,,..                          <br>           .;flf?:.                             .:;/;.                         .,:;/?looooFzFozFFzoFFzl?;;,,...                                                          ...                            <br>          ,lzoFFzzo;                           :/ll/;.              ,,://fzoFzzFLLLOOOOLLOLOOLOLOLOOLLoof;:,:,,,.,.......,                                                                              <br>          ,lzFFFFFzo,                                    ,,:?flFFLLZOZ#Z############################Z##LFFf??l?/?/f/;;/f?///;//::;:,.                                                                   <br>          .?zFFzzzo/.                            ..;ozLOZFZZZ###############0###Z#############################0########Z#######ZZOZOOFLFf::,..                                                          <br>           .:;/;:.                         .:/oLLFOZZZ#####0##############ZZOLLFFLOOZZ########################0#########################ZLof??;;;;:::::,.                                               <br>                                      .:/loLOOOZOZ##00002000000#OFFFzFLOZ##OLzlollFooFLLZZZZZZOZZOOOOOOOOOOOOOOZZZZ######################ZZZZOFOzFZLzLFzLlo?;:                                          <br>                                  .,;lFLOZZO##000200222020000##000000000000#ZLzoozFzFLOOZOOOOOOOOOOOLLLOLLLOOLLLOOLOOOOOOOZ##########ZZZZZZZZZZOOOOOLOOOOLLzLoll?:.                                     <br>                               :;fzlLZZZ#00002222222000002200000000000220000####ZZZZOZZOOOLOOLOOLLOLLLLLLLLLLLLLLLLLLOOLLLOOOOOZZZZZZZZZZZZOOLLLLFFLLLLLLOLOOLLOlzzff:,                 ..              <br>                           .,?ozLLLOZZ##0002022222022222222000###ZOOFzzoozzFOZZZZZZZOZZOOOOOOLLLLOLOLLLLLLLLLLLLLLLLOLLOLLLOOOLOOOOOOOLLLLLLLFFFFFzzFFzFzFFFLOOLLFLOFFlf?:           ,fzzol:            <br>             .          .:/zzLLZZZ#Z##0022222222222222000#OLLLOZZZZ###OFolzFLOZZZZZOZZOOOOOLOOLOLOOLLLLLLLLLLLLLLLLLLLOLLOOOOOOOOOOLLLLFFFFFzFzFFzFFzzzzzzzzzFFLLOOLOLLLFFof?;.      /ooof,             <br>                      ,/?LFLOZ##Z##00222222222222000#FZ####0000022020000ZOOZ##ZZZZZZZZZOOOOOOOOOOOOLLLLOOLLLLLLLLLLOLLLOOOLOOOOOOLLLLFFFzzFzzzFzzzzzzzzzzzzzzzzzFFFLOOLOOLOLzol?/,                      <br>                   .;flFFOZZZ##00#222222222220##0###0000002222222222000#OLLLZ##############ZZZZZZOOOOOOOLOOLLLFLLOOOOOOOOOOLOOOOLLFFFFzzzzzzzzzzzzzzzzzozzzzzzzzzzzzFLOOLZOFOZLFllf/,                   <br>                 ./fFLFOZ####00002222000000#Z###0000002222222220200000000#ZLFZ####################Z#ZZZZOOOLLLLFLLLLLOOOOOOLOOOLLFFFzzzzzzzzzzozzozzzzoozzzozzzzzzzzFFFLLOOZZZZzLLzzol/.                <br>               .?zzLZOZ###00000200000#ZLzFLZ#000022222222222222002022000#ZLLZ#Z######################ZZOOOOOLLLLFLFFFFLLLLLLLLOLLFFzzzzzzzzzzzozoozzozzozzzzzzzzzzzFzFFLLOOZ###ZZZOOFlFlf;.             <br>             :?zLZZ######00000020000###00002022222222222222222222222200000###################0###ZZZOZOOZLOOLLLLFFFFFFFFFLFFFFLFFFFLFzzzzzzzzzzzzozzozzozzzzzzzzzzzFFFFLLLOZZZ###OZZZZZzLol/.           <br>          ./fLOZ########00000002000000222222202222220202200002222222000000###################0##ZZZOOOOOLLLLLFFFFFLFFFFzFFFFFFFzFzFFzzFzzFzzzzzzzzzozozzzzzzzzzFFFFFFFFFFLOOOOZZZZ#Z##ZOZFFolf;.        <br>        ,?FOZ##################0000222220222222202000000000000000000000########################ZZZOOOOOLFFLLFFFFFFFFFFFFFFFFFzzFzFzzzzzzzFFFzFzzzzzzzzzzzzzzzzFFFFFFFFFFLLLLOOOOZZ######ZZOLLolf;.      <br>      ;oOZZ##################00000222200220220000000##########################################ZZZOOOOLLFLFFFLFFFFFFFLFFFFFFFzFFFzFzzzzzFFFzFFFFFLFFFFFLFzFFzzFFFFFFLLLLLLLOOOOZOZZZ#####Z##ZOLOolo/.    <br></td></tr></tbody></table>\n";
 
-},{}],48:[function(require,module,exports){
+},{}],49:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 108px; height: 108px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>       .,,..      <br>   .itt;;;;;;;:   <br>  ittft;:;11tti;: <br> i11tffffftff1;;;:<br>,111tfffffft;1t1t1<br>.tffffffffftiiitf1<br> ;tttttttffffffff,<br>  ,tttffffffffft. <br>    .itttttt1;.   <br></td></tr></tbody></table>\n";
 
-},{}],49:[function(require,module,exports){
+},{}],50:[function(require,module,exports){
 module.exports = "<table cellspacing=\"0\" cellpadding=\"0\" style=\"display: inline; width: 180px; height: 180px; white-space: pre; margin: 0px; padding: 0px; letter-spacing: -1.04px; font-family: 'courier new'; font-size: 12px; line-height: 12px; text-align: left; text-decoration: none;\"><tbody><tr><td>                              <br>  .:,                  ,oZZf. <br> .o/    ,:?flllf?//:.  :FLF/  <br>      ,?ooolllllozFOOLf,      <br>     /ooollllllloooozLLF?     <br>    floolooooooooooooooll?    <br>   ?llooloozzFLLLFzoooooll?   <br>  ,lllloolllllllooooooooool,  <br>  ;lllllllllooooolflloloool:  <br>  ,llzFLOOOLFoolff?flfolool,  <br>   ?lllllloooolfoZ#Zzfllll?   <br>   .flllllllf?;:;flf///fl?    <br>     ;fllllf/;::;:;///??,     <br>       :flllf/;::;??ff,   ,.  <br>          .:/???//:.    .;:.  <br></td></tr></tbody></table>\n";
 
-},{}],50:[function(require,module,exports){
-var Universe, amelio, planetFactory, resources,
+},{}],51:[function(require,module,exports){
+var Universe, amelio, planetFactory, resources, stars,
   __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
 planetFactory = require("./planets/planet_factory");
@@ -1899,6 +1928,8 @@ resources = require("./resources");
 
 amelio = require("./amelio");
 
+stars = require("./stars");
+
 Universe = (function() {
   Universe.prototype.dom = null;
 
@@ -1906,6 +1937,7 @@ Universe = (function() {
 
   function Universe() {
     this.createPlanets = __bind(this.createPlanets, this);
+    stars.create();
     this.dom = document.getElementById("universe");
     this.planets = [];
     resources.ships.once("update", (function(_this) {
@@ -1954,4 +1986,4 @@ Universe = (function() {
 module.exports = new Universe();
 
 
-},{"./amelio":1,"./planets/planet_factory":31,"./resources":34}]},{},[8])
+},{"./amelio":1,"./planets/planet_factory":31,"./resources":34,"./stars":35}]},{},[8])

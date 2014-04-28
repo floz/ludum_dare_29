@@ -1,6 +1,7 @@
 planetFactory = require "./planets/planet_factory"
 resources = require "./resources"
 amelio = require "./amelio"
+stars = require "./stars"
 
 class Universe
 
@@ -8,6 +9,8 @@ class Universe
     planets: null
 
     constructor: ->
+        stars.create()
+
         @dom = document.getElementById "universe"
         @planets = []
         resources.ships.once "update", =>
