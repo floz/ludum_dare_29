@@ -6,7 +6,7 @@
 
 var jsAscii = (function() {
 
-    var aDefaultCharList = (" .,:;i1tfLCG08@").split("");
+    var aDefaultCharList = (" .,:;/?flozFLOZ#023@@").split("");
     var aDefaultColorCharList = (" .,:;/?flozFLOZ#023@@").split("");
     var strFont = "courier new";
 

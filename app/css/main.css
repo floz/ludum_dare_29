@@ -90,6 +90,7 @@ a img {
   border: none;
 }
 body {
+  position: relative;
   background-color: #010a1d;
   font-family: "courier new";
   color: #010a1d;
@@ -101,18 +102,103 @@ table {
 #universe {
   position: relative;
   color: #fff;
+  overflow: hidden;
+  height: 150px;
+}
+#universe .planet {
+  display: none;
+}
+#universe.expand {
+  overflow: auto;
+  height: 2300px;
+}
+#universe.expand .planet {
+  display: block;
 }
 #origin {
   position: absolute;
   width: 108px;
   height: 108px;
   left: 50%;
-  top: -54px;
   margin-left: -54px;
+  display: block !important;
 }
 #origin .planet-menu {
   left: 120px;
   top: 10px;
+}
+#collect_0 {
+  position: absolute;
+  width: 209px;
+  height: 216px;
+  top: 500px;
+  left: 200px;
+}
+#collect_0 .planet-menu {
+  left: 220px;
+  top: 40px;
+}
+#army_0 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 760px;
+  right: 250px;
+}
+#army_0 .planet-menu {
+  left: -400px;
+  top: 40px;
+  text-align: right;
+}
+#war_0 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 1200px;
+  left: 700px;
+}
+#war_0 .planet-menu {
+  left: 200px;
+  top: 10px;
+}
+#war_0 .planet-lifebar {
+  left: 15px;
+  top: -10px;
+}
+#amelio_0 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 1000px;
+  left: 330px;
+}
+#amelio_0 .planet-menu {
+  width: 500px;
+  left: 110px;
+  top: 15px;
+}
+#amelio_0 .planet-lifebar {
+  left: -5px;
+  top: -10px;
+}
+#end {
+  position: absolute;
+  bottom: 70px;
+  width: 1200px;
+  height: 720px;
+  left: 50%;
+  margin-left: -600px;
+}
+#end .planet-menu {
+  width: 600px;
+  right: -100px;
+  left: auto;
+  top: 450px;
+}
+#end .planet-lifebar {
+  left: 50%;
+  margin-left: -80px;
+  top: 400px;
 }
 .planet-menu {
   position: absolute;
@@ -130,6 +216,75 @@ table {
 .planet-menu span {
   display: inline-block;
   margin-right: 5px;
+}
+.planet-lifebar {
+  position: absolute;
+  font-size: 12px;
+  width: 300px;
+}
+.planet-lifebar span {
+  display: inline-block;
+}
+.planet-lifebar .bar {
+  background-color: #f8f8f8;
+  width: 100px;
+  height: 10px;
+}
+.planet-lifebar .value {
+  position: relative;
+  top: -1px;
+}
+#ui-end {
+  position: fixed;
+  width: 800px;
+  height: 400px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  left: 50%;
+  top: 50%;
+  margin-top: -250px;
+  margin-left: -400px;
+  display: none;
+}
+#ui-end .title {
+  position: relative;
+  width: 596px;
+  height: 96px;
+  margin: 40px auto 0;
+}
+#ui-end .desc {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+#ui-end .credits {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 12px;
+}
+#ui-end .bar--bottom {
+  position: absolute;
+  bottom: 10px;
+}
+#avatar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+#logo {
+  position: absolute;
+  width: 1193px;
+  height: 96px;
+  color: #d8d8d8;
+  opacity: 0.25;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+  filter: alpha(opacity=25);
+  left: 50%;
+  margin-left: -600px;
+  top: 20px;
 }
 #menu {
   position: fixed;
@@ -152,6 +307,20 @@ table {
 }
 .menu__entry {
   float: left;
+}
+.menu__avatar {
+  width: 500px;
+  height: 10px;
+}
+#menu__amelio {
+  width: 250px;
+  visibility: hidden;
+}
+#menu__stats__army {
+  margin-left: 230px;
+}
+#menu__stats__army .menu__stat {
+  display: none;
 }
 .menu__resources {
   float: right;

@@ -2,6 +2,7 @@ elts = []
 
 update = ->
     for elt in elts
+        continue if not elt
         elt.update()
 
     requestAnimationFrame update
